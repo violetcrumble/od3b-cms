@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "AmazonLink": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProductCategory": {
+      "type": "enumeration",
+      "enum": [
+        "glassware",
+        "syrups",
+        "garnishes",
+        "bar-tools",
+        "bitters",
+        "ice-molds",
+        "appliances"
+      ]
+    }
+  }
+}
