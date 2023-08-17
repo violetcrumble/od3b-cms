@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-post",
     "pluralName": "blog-posts",
-    "displayName": "Blog Post"
+    "displayName": "Blog Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "BlogPostBody": {
       "type": "text"
+    },
+    "urlSlug": {
+      "type": "string"
     }
   }
 }
