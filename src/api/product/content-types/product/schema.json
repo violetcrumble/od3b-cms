@@ -41,6 +41,9 @@
         "appliances",
         "cocktail-books"
       ]
+    },
+    "AmazonASIN": {
+      "type": "string"
     }
   }
 }
