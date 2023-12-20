@@ -49,6 +49,10 @@
     },
     "RecipeIntro": {
       "type": "richtext"
+    },
+    "cocktailIngredients": {
+      "type": "json",
+      "required": true
     }
   }
 }
