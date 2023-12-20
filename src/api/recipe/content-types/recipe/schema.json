@@ -43,6 +43,12 @@
     },
     "isShortformVideo": {
       "type": "boolean"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "RecipeIntro": {
+      "type": "richtext"
     }
   }
 }
