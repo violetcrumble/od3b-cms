@@ -53,6 +53,11 @@
     "cocktailIngredients": {
       "type": "json",
       "required": true
+    },
+    "relatedProducts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
     }
   }
 }
