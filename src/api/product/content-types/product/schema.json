@@ -32,6 +32,7 @@
     "ProductCategory": {
       "type": "enumeration",
       "enum": [
+        "all_products",
         "glassware",
         "syrups",
         "garnishes",
