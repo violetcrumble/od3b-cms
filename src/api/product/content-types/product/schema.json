@@ -46,6 +46,9 @@
     },
     "AmazonASIN": {
       "type": "string"
+    },
+    "AmazonPhotoURL": {
+      "type": "string"
     }
   }
 }
