@@ -32,6 +32,16 @@
       "relation": "manyToMany",
       "target": "api::blog-post.blog-post",
       "inversedBy": "blog_authors"
+    },
+    "AuthorPhoto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

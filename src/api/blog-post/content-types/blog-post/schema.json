@@ -29,6 +29,19 @@
       "relation": "manyToMany",
       "target": "api::blog-author.blog-author",
       "mappedBy": "blog_posts"
+    },
+    "TextPreviewSnippet": {
+      "type": "text"
+    },
+    "ListingCardImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
