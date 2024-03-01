@@ -15,11 +15,20 @@
     "Title": {
       "type": "string"
     },
-    "BlogPostBody": {
-      "type": "text"
-    },
     "urlSlug": {
       "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "BlogPostBody": {
+      "type": "richtext"
+    },
+    "blog_authors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-author.blog-author",
+      "mappedBy": "blog_posts"
     }
   }
 }

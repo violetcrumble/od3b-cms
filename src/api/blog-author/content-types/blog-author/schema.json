@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_authors",
+  "info": {
+    "singularName": "blog-author",
+    "pluralName": "blog-authors",
+    "displayName": "Blog Author",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AuthorName": {
+      "type": "string"
+    },
+    "AuthorBio": {
+      "type": "richtext"
+    },
+    "YouTubeLink": {
+      "type": "string"
+    },
+    "InstagramLink": {
+      "type": "string"
+    },
+    "WebsiteURL": {
+      "type": "string"
+    },
+    "blog_posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-post.blog-post",
+      "inversedBy": "blog_authors"
+    }
+  }
+}
