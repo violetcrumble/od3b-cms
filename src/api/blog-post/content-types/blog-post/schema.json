@@ -34,14 +34,21 @@
       "type": "text"
     },
     "ListingCardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "seoKeywords": {
+      "type": "text"
+    },
+    "seoDescription": {
+      "type": "text"
     }
   }
 }
