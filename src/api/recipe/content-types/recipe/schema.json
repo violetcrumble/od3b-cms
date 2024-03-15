@@ -58,6 +58,24 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "tequila",
+        "mezcal",
+        "vodka",
+        "rum",
+        "gin",
+        "bourbon",
+        "scotch",
+        "rye whiskey",
+        "brandy",
+        "cachaca"
+      ]
     }
   }
 }

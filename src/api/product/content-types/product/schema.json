@@ -18,17 +18,6 @@
     "AmazonLink": {
       "type": "string"
     },
-    "Photo": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "ProductCategory": {
       "type": "enumeration",
       "enum": [
