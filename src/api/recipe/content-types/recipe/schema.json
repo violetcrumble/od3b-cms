@@ -62,22 +62,11 @@
     "seoDescription": {
       "type": "text"
     },
-    "categories": {
-      "type": "enumeration",
-      "enum": [
-        "tequila",
-        "mezcal",
-        "vodka",
-        "rum",
-        "gin",
-        "bourbon",
-        "scotch",
-        "rye whiskey",
-        "irish whiskey",
-        "whiskey",
-        "brandy",
-        "cachaca"
-      ]
+    "spirits": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::spirit.spirit",
+      "inversedBy": "recipes"
     }
   }
 }

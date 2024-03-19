@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spirits",
+  "info": {
+    "singularName": "spirit",
+    "pluralName": "spirits",
+    "displayName": "Spirit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "spirit": {
+      "type": "string"
+    },
+    "recipes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recipe.recipe",
+      "mappedBy": "spirits"
+    }
+  }
+}
