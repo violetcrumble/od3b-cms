@@ -23,7 +23,7 @@
     },
     "PhotoMain": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -67,6 +67,16 @@
       "relation": "manyToMany",
       "target": "api::spirit.spirit",
       "inversedBy": "recipes"
+    },
+    "videoThumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
