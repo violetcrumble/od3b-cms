@@ -36,7 +36,8 @@
       "type": "string"
     },
     "recipeUrlSlug": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "youTubeID": {
       "type": "string"
@@ -69,6 +70,17 @@
       "inversedBy": "recipes"
     },
     "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PhotoPinterest": {
       "allowedTypes": [
         "images",
         "files",
@@ -76,7 +88,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
