@@ -90,6 +90,9 @@
         "videos",
         "audios"
       ]
+    },
+    "videoUploadDate": {
+      "type": "datetime"
     }
   }
 }
