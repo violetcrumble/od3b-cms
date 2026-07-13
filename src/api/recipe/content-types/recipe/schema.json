@@ -93,6 +93,16 @@
     },
     "videoUploadDate": {
       "type": "datetime"
+    },
+    "ratingCount": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "ratingTotal": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }
